@@ -1,0 +1,68 @@
+@font-face {
+    font-family:Apax-Regular ;
+    src: url(public/font/Apax Regular.woff2)format(woff2);
+}
+
+@font-face {
+    font-family:Apax-Bold ;
+    src: url(public/font/Apax-Bold.woff2)format(woff2);
+}
+
+@font-face {
+    font-family:Apax-Light ;
+    src: url(public/font/Apax-Light.woff2) format(woff2);
+}
+
+@font-face {
+    font-family:Apax-Lightitalic ;
+    src: url(public/font/Apax-Lightitalic.woff2)format(woff2);
+}
+
+@font-face {
+    font-family:Apax-Superbold ;
+    src: url(public/font/Apax-Superbold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family:Apax-Thin ;
+    src: url(public/font/Apax-thin.woff2) format(woff2);
+}
+
+h1 {
+    font-family: Apax-light;
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+h2 {
+
+    font-family: Apax;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.625rem;
+}
+
+a {
+    text-align: center;
+    font-family: var(--Static-Body-Medium-Font, Roboto);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.02056rem; 
+    letter-spacing: 0.01275rem;
+
+}
+
+h4 {
+    font-family: Apax;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem; /* 150% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+}

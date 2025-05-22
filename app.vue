@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type Billeterie from './components/billeterie.vue';
+
 useSeoMeta({
   title: 'My Amazing Site',
   ogTitle: 'My Amazing Site',
@@ -9,7 +11,7 @@ useSeoMeta({
 })
 </script>
 <template>
-      <div class="language">
+    <div class="language">
       <h4>FR</h4> 
       <h4>IT</h4> 
       <h4>DE</h4> 
@@ -19,10 +21,10 @@ useSeoMeta({
     <section>
       <nav>
         <img class="logo-mjf" src="public/img/logo-mjf.png" alt="LOGO MONTREUX JAZZ">
-        <a href="#programme">Le programme</a>
-        <a href="#billeterie">La billeterie</a>
-        <a href="#newsletter">La newsletter</a>
-        <a href="#affiche">L'affiche</a>
+        <h5><a href="#programme">Le programme</a></h5>
+        <h5> <a href="#billeterie">La billeterie</a></h5>
+        <h5><a href="#newsletter">La newsletter</a></h5>
+        <h5><a href="#affiche">L'affiche</a></h5>
       </nav>
       <Savethedate></Savethedate>
       <date></date>
@@ -31,7 +33,12 @@ useSeoMeta({
       </countdown>
     </section>
   </header>
+  <billeterie></billeterie>
+  <newsletter></newsletter>
+  <prog></prog>
 </template>
+
 <style>
 @import url("/assets/css/style.css");
+@import url("/assets/css/font.css");
 </style>

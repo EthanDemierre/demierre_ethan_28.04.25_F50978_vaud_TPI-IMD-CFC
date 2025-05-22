@@ -1,11 +1,11 @@
 <template>
     <div class="countdown">
-    <ul>
-      <li><span id="days"></span>Jours</li>
-      <li><span id="hours"></span>Heures</li>
-      <li><span id="minutes"></span>Minutes</li>
-      <li><span id="seconds"></span>Secondes</li>
-      <li><span id="texte-countdown"></span>AVANT LE DEBUT DU FESTIVAL</li>
+    <ul>   
+      <h1><li><span id="days"></span>Jours</li></h1>
+      <h1><li><span id="hours"></span>Heures</li></h1>
+      <h1><li><span id="minutes"></span>Minutes</li></h1>
+      <h1><li><span id="seconds"></span>Secondes</li></h1>
+      <h2><li><span id="texte-countdown"></span>AVANT LE DEBUT DU FESTIVAL</li></h2>
     </ul>
   </div>
 </template>
@@ -77,7 +77,8 @@ onMounted(() => {
         display: flex;
         flex-grow: 1;
         justify-content: center;
-        gap: 15rem ;
+        gap: 10rem ;
+        align-items: center;
         
    
 
@@ -88,7 +89,12 @@ onMounted(() => {
         display: inline-flex;
         flex-direction: column;
         align-items: center;
+    
 
     }
 
+</style>
+
+<style>
+@import url("/assets/css/font.css");
 </style>
