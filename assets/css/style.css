@@ -1,0 +1,59 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+  
+}   
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    width: 100%;
+    
+}
+
+nav a { 
+    text-decoration: none;
+    color: black;
+}
+
+.background-vid {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.language {
+    background-color: white;
+    display: flex;
+    padding: 0.5rem ;
+    gap: 1.5rem;
+    width: 100%;
+     
+    
+} 
+.language h4 {
+    width: 4.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.logo-mjf {
+    width: 8%;
+    height: auto;
+}
+
