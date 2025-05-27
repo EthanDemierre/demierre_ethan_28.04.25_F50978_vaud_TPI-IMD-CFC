@@ -25,6 +25,7 @@ nav {
 nav a { 
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
 }
 
 .background-vid {
@@ -41,15 +42,16 @@ nav a {
     background-color: white;
     display: flex;
     padding: 0.5rem ;
-    gap: 1.5rem;
     width: 100%;
+   
      
     
 } 
 .language h4 {
-    width: 4.5rem;
+
     margin-left: 5rem;
     margin-right: 5rem;
+    text-transform: uppercase;
 }
 
 .logo-mjf {

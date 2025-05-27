@@ -5,7 +5,7 @@
       <h1><li><span id="hours"></span>Heures</li></h1>
       <h1><li><span id="minutes"></span>Minutes</li></h1>
       <h1><li><span id="seconds"></span>Secondes</li></h1>
-      <h3><li><span id="texte-countdown"></span>AVANT LE DEBUT DU FESTIVAL</li></h3>
+      <h3><li><span id="texte-countdown"></span>AVANT LE DEBUT  <br>DU FESTIVAL</li></h3>
     </ul>
     
   </div>
@@ -95,6 +95,12 @@ onMounted(() => {
         align-items: center;
     
 
+    }
+
+    span {
+      font-size: 4rem;
+      font-weight: bold;
+      line-height: 3rem;      
     }
 
 </style>

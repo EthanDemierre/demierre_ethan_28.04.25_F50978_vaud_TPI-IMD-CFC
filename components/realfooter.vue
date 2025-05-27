@@ -2,6 +2,7 @@
 <section>
   
   <footer>
+   
   <div class="partners-section">
     <div class="global">
       <h3>GLOBAL PARTENERS</h3>
@@ -51,6 +52,11 @@ footer {
     color: white;
     width: 100%;
     padding:5rem 0rem 5rem 0rem;
+    background-image: url(public/img/noise.jpg) ;
+    background-blend-mode:screen ;
+    
+    
+ 
   }
      
   .partners-section {
@@ -111,5 +117,6 @@ footer {
     display: flex;
     flex-direction: row-reverse
   }    
+
 @import url("/assets/css/font.css");
 </style>

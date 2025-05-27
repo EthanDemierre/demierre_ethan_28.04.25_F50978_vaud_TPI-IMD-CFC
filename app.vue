@@ -21,15 +21,14 @@ useSeoMeta({
     <section>
       <nav>
         <img class="logo-mjf" src="public/img/logo-mjf.png" alt="LOGO MONTREUX JAZZ">
-        <h5><a href="#programme">Le programme</a></h5>
-        <h5> <a href="#billeterie">La billeterie</a></h5>
-        <h5><a href="#newsletter">La newsletter</a></h5>
-        <h5><a href="#affiche">L'affiche</a></h5>
+        <h5><a href="#programme">programme</a></h5>
+        <h5><a href="#billeterie">billeterie</a></h5>
+        <h5><a href="#newsletter">newsletter</a></h5>
+        <h5><a href="#affiche">affiche</a></h5>
       </nav>
       <Savethedate></Savethedate>
       <date></date>
-      <countdown>
-      </countdown>
+      <countdown></countdown>
     </section>
   </header>
   <billeterie></billeterie>
@@ -43,4 +42,10 @@ useSeoMeta({
 <style>
 @import url("/assets/css/style.css");
 @import url("/assets/css/font.css");
+
+* {
+  scroll-behavior: smooth;
+}
+
+
 </style>

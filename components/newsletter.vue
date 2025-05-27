@@ -1,15 +1,24 @@
 
 import type AddcalendarBtn from './addcalendar-btn.vue';
 <template>
- <section>
+ <section id="newsletter">
     <div>
         <h1>Notre Newsletter</h1>
         <h4>Inscris-toi maintenant pour être le premier informé dès que
             les billets seront disponibles.
         </h4>
-        <h4><a href="">S'abonner</a></h4>
+        <a href="#" @click.prevent="showModal = true">S'abonner</a>
+        <div v-if="showModal" class="modal-overlay" @click.self="closeModal">
+      <div class="modal-content">
+        <h2>S’inscrire à  <br> <strong>la Newsletter</strong> </h2>
+        <p>Soit informer  par mail et téléphone au moment ou  <br> les places sont en vente et ai la possibilité de remporter 2 entrées de ton choix</p>
+        <input type="text" name="rere" id="" placeholder="Ecrit ton email..." required="" />
+        <AddcalendarBtn @click="showModal = false">S'abonner</AddcalendarBtn>
+        <hr>
+        <a @click="showModal = false">Abandonner</a>
+      </div>
     </div>
-
+    </div>
  </section>
 </template>
 
@@ -24,8 +33,6 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         padding-top: 5rem;
         padding-bottom: 5rem;
         background-color: #2631D9;
-       
-        
     }
   
 
@@ -33,7 +40,7 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         align-items: center;
         margin-left: 5rem;
         margin-right: 5rem;
-        max-width: 50%;
+       
     }
 
     * {
@@ -41,5 +48,76 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         color: white;
     }
 
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+     
+    }
 
+    .modal-content {
+        background:#EB37AC;
+        padding: 3rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        background-image: url(public/img/noise.jpg) ;
+        background-blend-mode:screen ;
+    }
+
+    a  {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    }     
+    p  {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    }  
+
+    h2 {
+    color: #2631D9;
+    line-height: 2rem;
+    text-align: center;
+    }   
+
+    strong {
+    color: #2631D9;
+    }
+
+    input {
+    width: 100%;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    }
+
+    hr {
+    margin-top: 2rem;
+    }
 </style>
+
+
+<script >
+export default {
+  data() {
+    return {
+      showModal: false
+    };
+  },
+  methods: {
+    closeModal() {
+      this.showModal = false;
+    }
+  }
+};
+
+</script>

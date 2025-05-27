@@ -1,5 +1,5 @@
 <template>
-<section>
+<section id="affiche">
   <article>
   <div class="text-affiche">
     <h2>Nouvelle vague digitale</h2>
