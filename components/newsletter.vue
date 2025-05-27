@@ -2,7 +2,7 @@
 import type AddcalendarBtn from './addcalendar-btn.vue';
 <template>
  <section id="newsletter">
-    <div>
+    <div class="news">
         <h1>Notre Newsletter</h1>
         <h4>Inscris-toi maintenant pour être le premier informé dès que
             les billets seront disponibles.
@@ -13,9 +13,10 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         <h2>S’inscrire à  <br> <strong>la Newsletter</strong> </h2>
         <p>Soit informer  par mail et téléphone au moment ou  <br> les places sont en vente et ai la possibilité de remporter 2 entrées de ton choix</p>
         <input type="text" name="rere" id="" placeholder="Ecrit ton email..." required="" />
-        <AddcalendarBtn @click="showModal = false">S'abonner</AddcalendarBtn>
+        <div class="btn">   <sinscrire-btn @click="showModal = false">S'abonner</sinscrire-btn></div>
+     
         <hr>
-        <a @click="showModal = false">Abandonner</a>
+        <a class="abandonner" @click="showModal = false">Abandonner</a>
       </div>
     </div>
     </div>
@@ -33,16 +34,23 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         padding-top: 5rem;
         padding-bottom: 5rem;
         background-color: #2631D9;
+        
     }
   
+    .btn {
+        display: flex;
+        justify-content: center;
+    } 
 
     div {
         align-items: center;
-        margin-left: 5rem;
-        margin-right: 5rem;
+      
        
     }
-
+.news {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
     * {
         text-decoration: none;
         color: white;
@@ -70,10 +78,11 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         background-blend-mode:screen ;
     }
 
-    a  {
+    .abandonner  {
     display: flex;
     align-items: center;
     margin-top: 1rem;
+    justify-content: space-around;
 
     }     
     p  {
@@ -103,6 +112,7 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
     hr {
     margin-top: 2rem;
     }
+
 </style>
 
 

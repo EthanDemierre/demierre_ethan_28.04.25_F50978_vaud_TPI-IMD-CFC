@@ -37,7 +37,6 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         </svg>
         <AddcalendarBtn></AddcalendarBtn>
     </div>
-    
  </section>
 </template>
 

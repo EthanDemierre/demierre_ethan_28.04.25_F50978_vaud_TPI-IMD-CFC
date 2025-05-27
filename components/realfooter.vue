@@ -28,11 +28,11 @@
 
   <div class="suivre">
   <div class="rs">
-    <p>SUIVRE LE FESTIVAL</p>
     <a href="#"><img src="public/img/instagram.svg" alt="Instagram"></a>
     <a href="#"><img src="public/img/facebook.svg" alt="Facebook"></a>
     <a href="#"><img src="public/img/youtube.svg" alt="YouTube"></a>
     <a href="#"><img src="public/img/tiktok.svg" alt="TikTok"></a>
+    <p>SUIVRE LE FESTIVAL</p>
   </div>
   <div class="signature">
     <p>Handcrafted by <strong>DEMIERRE ETHAN</strong></p>
