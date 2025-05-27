@@ -5,9 +5,11 @@
       <h1><li><span id="hours"></span>Heures</li></h1>
       <h1><li><span id="minutes"></span>Minutes</li></h1>
       <h1><li><span id="seconds"></span>Secondes</li></h1>
-      <h2><li><span id="texte-countdown"></span>AVANT LE DEBUT DU FESTIVAL</li></h2>
+      <h3><li><span id="texte-countdown"></span>AVANT LE DEBUT DU FESTIVAL</li></h3>
     </ul>
+    
   </div>
+ 
 </template>
 
 
@@ -66,6 +68,7 @@ onMounted(() => {
         width: 100%;
         padding: 1.25rem 1rem;
         align-items: center;
+        height: 15%;
         gap: 3.9375rem;
         background-color: white;
         position: absolute;
@@ -77,7 +80,8 @@ onMounted(() => {
         display: flex;
         flex-grow: 1;
         justify-content: center;
-        gap: 10rem ;
+        gap: 8rem ;
+        padding: 2rem;
         align-items: center;
         
    

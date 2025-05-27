@@ -20,7 +20,9 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         justify-content: flex-start;
         flex-direction: column;
         text-align: left;
-        height: 20rem;
+        height: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         background-color: #2631D9;
        
         

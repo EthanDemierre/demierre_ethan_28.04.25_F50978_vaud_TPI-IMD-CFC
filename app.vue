@@ -28,7 +28,6 @@ useSeoMeta({
       </nav>
       <Savethedate></Savethedate>
       <date></date>
-      <addcalendar-btn></addcalendar-btn>
       <countdown>
       </countdown>
     </section>
@@ -37,46 +36,8 @@ useSeoMeta({
   <newsletter></newsletter>
   <prog></prog>
   <affiche></affiche>
-
-  <footer>
-    <div class="global-parteners"> 
-      <h3>Global parteners</h3>
-      <a href="https://www.instagram.com/montreuxjazzfestival" target="_blank" rel="noopener">
-        <img src="public/img/julius.svg" alt="Instagram" />
-      </a>
-      <a href="https://www.facebook.com/montreuxjazzfestival" target="_blank" rel="noopener">
-        <img src="public/img/ap.svg" alt="Facebook" />
-      </a>
-    </div>
-
-    <div class="main-parteners"> 
-      <h3>Main parteners</h3>
-      <a href="https://www.instagram.com/montreuxjazzfestival" target="_blank" rel="noopener">
-        <img src="public/img/superbock.svg" alt="Instagram" />
-      </a>
-      <a href="https://www.facebook.com/montreuxjazzfestival" target="_blank" rel="noopener">
-        <img src="public/img/swisscom.svg" alt="Facebook" />
-      </a>
-      <a href="https://twitter.com/montreuxjazz" target="_blank" rel="noopener">
-        <img src="public/img/vaudoise.svg" alt="Twitter" />
-      </a>
-    </div>
-    <div class="footer-social">
-      <a href="https://www.instagram.com/montreuxjazzfestival" target="_blank" rel="noopener">
-        <img src="public/img/instagram.svg" alt="Instagram" />
-      </a>
-      <a href="https://www.facebook.com/montreuxjazzfestival" target="_blank" rel="noopener">
-        <img src="public/img/facebook.svg" alt="Facebook" />
-      </a>
-      <a href="https://twitter.com/montreuxjazz" target="_blank" rel="noopener">
-        <img src="public/img/twitter.svg" alt="Twitter" />
-      </a>
-      <a href="https://www.youtube.com/montreuxjazzvideos" target="_blank" rel="noopener">
-        <img src="public/img/youtube.svg" alt="YouTube" />
-      </a>
-    </div>
-    <h3>Handcrafted by Demierre Ethan</h3>
-  </footer>
+  <Realfooter></Realfooter>
+  
 </template>
 
 <style>

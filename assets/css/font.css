@@ -66,6 +66,14 @@ h4 {
     text-decoration-skip-ink: none;
     text-decoration-thickness: auto;
 }
+
+h3 {
+    font-family: Apax-bold;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2rem; /* 150% */
+}
 p {
     font-family: Apax;
     font-size: 0,5rem;
