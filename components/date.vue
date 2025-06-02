@@ -18,6 +18,7 @@
   <path d="M241.644 152.358V19.7732H227.117V0H264V19.7732H249.437V152.358H241.644Z" fill="#2631D9"/>
 </svg>
   </div>
+  <br>
   <div class="button">  
       <AddcalendarBtn></AddcalendarBtn> 
     </div>
@@ -46,6 +47,17 @@
 .AddcalendarBtn {
     margin: 0px;
     
+}
+
+@media (max-width: 600px) {
+  div {
+    flex-direction: column;
+    gap: 0px;
+  }
+  svg {
+    width: 40%; 
+    max-width: none;
+  }
 }
 
 

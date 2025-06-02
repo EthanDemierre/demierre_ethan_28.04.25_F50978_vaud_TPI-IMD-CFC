@@ -1,10 +1,10 @@
 <template>
     <div class="countdown">
     <ul>   
-      <h1><li><span id="days"></span>Jours</li></h1>
-      <h1><li><span id="hours"></span>Heures</li></h1>
-      <h1><li><span id="minutes"></span>Minutes</li></h1>
-      <h1><li><span id="seconds"></span>Secondes</li></h1>
+      <li><span class="count" id="days"></span><span class="count-unit">Jours</span></li>
+      <li><span class="count" id="hours"></span><span class="count-unit" >Heures </span></li>
+      <li><span class="count" id="minutes"></span><span class="count-unit" >Minutes</span></li>
+      <li><span class="count" id="seconds"></span><span class="count-unit" >Secondes</span></li>
       <h3><li><span id="texte-countdown"></span>AVANT LE DEBUT  <br>DU FESTIVAL</li></h3>
     </ul>
     
@@ -81,11 +81,19 @@ onMounted(() => {
 
     }
 
-    span {
-      font-size: 4rem;
-      font-weight: bold;
-      line-height: 3rem;      
-    }
+    @media (max-width: 1200px) {
+  div {
+    height: auto;
+    padding: 1rem 0.5rem;
+    display: none;
+  }
+  ul {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+}
+
 
 </style>
 

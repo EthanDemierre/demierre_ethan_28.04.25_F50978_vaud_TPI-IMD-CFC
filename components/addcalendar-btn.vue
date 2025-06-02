@@ -8,7 +8,7 @@
 
 <style scoped>
     button {
-        
+        min-width:200px ;
         display: flex;
         background-color: white;
         text-decoration: none;

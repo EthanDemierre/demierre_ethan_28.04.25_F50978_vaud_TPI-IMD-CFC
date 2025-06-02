@@ -2,15 +2,12 @@
 import type Billeterie from './components/billeterie.vue';
 
 useSeoMeta({
-  title: 'My Amazing Site',
+  title: 'Montreux Jazz Festival - Save The Date',
   ogTitle: 'My Amazing Site',
-  description: 'This is my amazing site, let me tell you all about it.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://example.com/image.png',
-  twitterCard: 'summary_large_image',
+  ogImage: 'public/img/logo-mjf.png',
 })
 </script>
-<template>
+<template class="container">
     <div class="language">
       <h4>FR</h4> 
       <h4>IT</h4> 

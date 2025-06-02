@@ -1,7 +1,7 @@
 
 import type AddcalendarBtn from './addcalendar-btn.vue';
-<template>
- <section id="newsletter">
+<template >
+ <section id="newsletter"  class="container"  >
     <div class="news">
         <h1>Notre Newsletter</h1>
         <h4>Inscris-toi maintenant pour être le premier informé dès que
@@ -48,8 +48,7 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
        
     }
 .news {
-    margin-left: 5rem;
-    margin-right: 5rem;
+
 }
     * {
         text-decoration: none;
@@ -113,6 +112,18 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
     margin-top: 2rem;
     }
 
+@media (max-width: 767px) {
+
+    h1 {
+      line-height: 65px;
+    }
+
+    a {
+      line-height: 65px;
+    }
+
+}
+@import url("/assets/css/style.css");
 </style>
 
 
@@ -129,5 +140,6 @@ export default {
     }
   }
 };
+
 
 </script>

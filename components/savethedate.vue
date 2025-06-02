@@ -30,5 +30,18 @@
     max-width: 100%;
   } 
 
+  @media (max-width: 1024px) {
+  svg {
+    max-height: 250px;
+  }
+}
+
+
+@media (max-width: 990px) {
+  svg {
+    max-height: 150px;
+  }
+}
+
 </style>
 

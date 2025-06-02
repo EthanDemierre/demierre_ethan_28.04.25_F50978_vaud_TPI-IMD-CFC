@@ -5,6 +5,19 @@
     padding: 0;
 }
 
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -50,8 +63,8 @@ nav a {
 .language h4 {
 
     margin-left: 5rem;
-    margin-right: 5rem;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo-mjf {
@@ -59,3 +72,63 @@ nav a {
     height: auto;
 }
 
+@media (max-width: 1024px) {
+    header section {
+      padding: 30px 40px;
+    }
+  
+    nav {
+      gap: 20px;
+    }
+  
+    nav img.logo-mjf {
+      height: 50px;
+    }
+  
+    nav h5 a {
+      font-size: 0.9rem;
+    }
+  
+    .language {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .language {
+      justify-content: center;
+      font-size: 1rem;
+    }
+  
+    header section {
+      padding: 20px 15px;
+      align-items: center;
+    }
+  
+    nav {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+    }
+  
+    nav img.logo-mjf {
+      width: 50%;
+      height: 50%;
+    }
+  
+    nav h5 a {
+        display: none;
+      
+    }
+  
+    nav h5 {
+        display: none;
+     
+    }
+  
+    .background-vid {
+      height: 200px;
+      object-position: center;
+    }
+  }
