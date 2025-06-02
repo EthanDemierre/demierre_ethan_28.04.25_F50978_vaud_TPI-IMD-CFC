@@ -160,8 +160,10 @@ footer {
   }
 
   .logos {
+    
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     gap: 2rem;
   }
 
