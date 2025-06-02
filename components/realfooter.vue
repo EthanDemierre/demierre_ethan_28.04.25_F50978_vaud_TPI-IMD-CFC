@@ -140,5 +140,63 @@ footer {
   display: inline-block;
 }
 
+@media (max-width: 960px) {
+  footer {
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .partners-section {
+    flex-direction: column;
+    margin: 0;
+    gap: 2rem;
+  }
+
+  .global,
+  .main {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .condition {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .suivre {
+    margin: 0;
+    gap: 1rem;
+  }
+
+  .rs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .rs p {
+    margin-left: 0;
+  }
+
+  .signature {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
 @import url("/assets/css/font.css");
 </style>

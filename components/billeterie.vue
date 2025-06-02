@@ -55,12 +55,12 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
 
     }
     .date {
-        
+        margin: 5rem;
         display: flex;
         justify-content: left;
         flex-direction: column;
         gap: 1rem;
-   
+      
     }
 
     .text-prog {
@@ -72,7 +72,7 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
         .date {
             gap: 0.5rem;
             padding-bottom: 5rem;
-           
+            margin: 2rem;
            
         }
 
