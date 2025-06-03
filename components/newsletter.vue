@@ -1,8 +1,8 @@
 
 import type AddcalendarBtn from './addcalendar-btn.vue';
 <template >
- <section id="newsletter"  class="container"  >
-    <div class="news">
+ <section id="newsletter">
+    <div class="news container">
         <h1>Notre Newsletter</h1>
         <h4>Inscris-toi maintenant pour être le premier informé dès que
             les billets seront disponibles.

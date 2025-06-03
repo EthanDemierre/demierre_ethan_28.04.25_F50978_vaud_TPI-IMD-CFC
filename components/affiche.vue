@@ -8,7 +8,7 @@
     <hr>
   </div>
   <div class="affiche">
-    <video  autoplay loop muted src="public/vid/affiche-anim-web2.mp4"></video>
+    <video  autoplay loop muted src="public/vid/affiche-anim-web3.mp4"></video>
   </div>
 </article>
 </section>

@@ -7,7 +7,7 @@
       <li><span class="count" id="seconds"></span><span class="count-unit" >Secondes</span></li>
       <h3><li><span id="texte-countdown"></span>AVANT LE DEBUT  <br>DU FESTIVAL</li></h3>
     </ul>
-    
+
   </div>
  
 </template>
@@ -82,17 +82,26 @@ onMounted(() => {
     }
 
     @media (max-width: 1200px) {
-  div {
-    height: auto;
-    padding: 1rem 0.5rem;
-    display: none;
-  }
-  ul {
-    flex-direction: column;
-    gap: 1.5rem;
-    padding: 1rem;
-  }
-}
+      div {
+        position: relative;
+        display: block;
+        height:auto;
+        
+          
+      }
+
+      ul {
+        flex-direction: column;
+        gap: 1rem;
+
+      }
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+
 
 
 </style>
