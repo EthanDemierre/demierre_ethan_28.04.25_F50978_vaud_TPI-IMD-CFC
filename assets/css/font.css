@@ -18,10 +18,10 @@
     src: url(public/font/Apax-Lightitalic.woff2)format(woff2);
 }
 
-@font-face {
+/* @font-face {
     font-family:Apax-Superbold ;
     src: url(public/font/Apax-Superbold.woff2) format(woff2);
-}
+} */
 
 @font-face {
     font-family:Apax-Thin ;

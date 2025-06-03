@@ -5,7 +5,7 @@
       <li><span class="count" id="hours"></span><span class="count-unit" >Heures </span></li>
       <li><span class="count" id="minutes"></span><span class="count-unit" >Minutes</span></li>
       <li><span class="count" id="seconds"></span><span class="count-unit" >Secondes</span></li>
-      <h3><li><span id="texte-countdown"></span>AVANT LE DEBUT  <br>DU FESTIVAL</li></h3>
+      <li><h3><span id="texte-countdown"></span>AVANT LE DEBUT  <br>DU FESTIVAL</h3></li>
     </ul>
 
   </div>

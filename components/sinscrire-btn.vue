@@ -1,13 +1,11 @@
 <template>
-    <button>
-        <a href="evenement.ics" download="https://www.addevent.com/event/Xa25795264+apple">
-         S'abonner
-        </a>
-    </button>   
+    <a class="button" href="evenement.ics" download="https://www.addevent.com/event/Xa25795264+apple">
+        S'abonner
+    </a>
 </template>
 
 <style scoped>
-    button {
+    .button {
         
         display: flex;
         background-color: white;

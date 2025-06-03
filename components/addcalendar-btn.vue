@@ -1,9 +1,7 @@
 <template>
-    <button>
-        <a href="evenement.ics" download="https://www.addevent.com/event/Xa25795264+apple">
-         Ajouter à mon calendrier
-        </a>
-    </button>   
+    <a class="button" href="evenement.ics" download="https://www.addevent.com/event/Xa25795264+apple">
+        Ajouter à mon calendrier
+    </a>
 </template>
 
 <style scoped>

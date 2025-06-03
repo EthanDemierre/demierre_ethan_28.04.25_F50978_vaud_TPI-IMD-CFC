@@ -3,12 +3,13 @@ import type Billeterie from './components/billeterie.vue';
 
 useSeoMeta({
   title: 'Montreux Jazz Festival - Save The Date',
-  ogTitle: 'My Amazing Site',
+  description: 'description',
+  ogTitle: 'MONTREUX JAZZ FESTIVAL ',
   ogImage: 'public/img/logo-mjf.png',
 })
 </script>
-<template class="container">
-    <div class="language">
+<template>
+    <div class="language container ">
       <h4>FR</h4> 
       <h4>IT</h4> 
       <h4>DE</h4> 

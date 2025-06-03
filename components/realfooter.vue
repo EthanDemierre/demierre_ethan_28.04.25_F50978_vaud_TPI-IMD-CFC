@@ -16,7 +16,7 @@
         <h3>MAIN PARTNERS</h3>
         <div class="logos">
           <a href="#"><img class="mainlogo" src="public/img/superbock.svg" alt="Super Bock"></a>
-          <a href="#"><img class="mainlogo" src="public/img/swisscom.svg" alt="Swisscom"></a>
+          <a href="#"><img class="mainlogo" src="public/img/swisscom2.svg" alt="Swisscom"></a>
           <a href="#"><img class="mainlogo" src="public/img/vaudoise.svg" alt="Vaudoise"></a>
         </div>
       </div>
