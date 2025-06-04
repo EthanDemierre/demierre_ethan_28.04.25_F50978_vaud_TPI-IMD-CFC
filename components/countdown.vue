@@ -81,6 +81,35 @@ onMounted(() => {
 
     }
 
+
+    @media (max-width: 1725px) {
+      div {
+        
+
+        
+          
+      }
+
+      ul {
+        
+        flex-grow: 1;
+        justify-content: center;
+        gap: 3rem ;
+        align-items: center; 
+        
+
+      }
+
+      span {
+        font-size: 42px;
+      }
+
+      h3 {
+        font-size:18px;
+      }
+    }
+
+
     @media (max-width: 1200px) {
       div {
         position: relative;

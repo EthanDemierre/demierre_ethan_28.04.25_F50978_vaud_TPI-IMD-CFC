@@ -5,7 +5,7 @@
 </template>
 
 <style scoped>
-    button {
+    .button {
         min-width:200px ;
         display: flex;
         background-color: white;

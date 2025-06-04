@@ -17,7 +17,7 @@ useSeoMeta({
   <header>
     <video class="background-vid" autoplay muted loop src="/public/vid/backgroud-vid.mp4"></video>
     <section>
-      <nav>
+      <nav class="container">
         <img class="logo-mjf" src="public/img/logo-mjf.png" alt="LOGO MONTREUX JAZZ">
         <h5><a href="#programme">programme</a></h5>
         <h5><a href="#billeterie">billeterie</a></h5>

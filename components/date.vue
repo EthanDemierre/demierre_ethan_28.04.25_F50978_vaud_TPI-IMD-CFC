@@ -54,7 +54,7 @@
 
 .button {
     margin: 0px;
-    padding-bottom: 2rem;
+    
     
 }
 
@@ -68,6 +68,15 @@
     max-width: none;
    
   }
+
+
+  .button {
+    margin: 0px;
+    margin-bottom: 1rem;
+    
+}
+
+
 }
 
 
