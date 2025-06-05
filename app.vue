@@ -9,11 +9,13 @@ useSeoMeta({
 })
 </script>
 <template>
+  <section class="navlg">
     <div class="language container ">
       <h4>FR</h4> 
       <h4>IT</h4> 
       <h4>DE</h4> 
     </div>
+  </section>
   <header>
     <video class="background-vid" autoplay muted loop src="/public/vid/backgroud-vid.mp4"></video>
     <section>
@@ -28,7 +30,6 @@ useSeoMeta({
       <date></date>
     </section>
     <countdown></countdown>
-
   </header>
   <billeterie></billeterie>
   <newsletter></newsletter>

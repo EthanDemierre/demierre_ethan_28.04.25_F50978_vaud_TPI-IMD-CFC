@@ -59,12 +59,15 @@ nav a {
 }
 
 .language {
-    background-color: white;
     display: flex;
     padding: 0.5rem ;
     gap: 1rem;
     
 } 
+
+.navlg {
+  background-color: white;
+}
 .language h4 {
     text-transform: uppercase;
     text-decoration: none;
