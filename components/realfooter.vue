@@ -15,9 +15,9 @@
       <div class="main">
         <h3>MAIN PARTNERS</h3>
         <div class="logos">
-          <a href="#"><img class="mainlogo" src="public/img/superbock.svg" alt="Super Bock"></a>
-          <a href="#"><img class="mainlogo" src="public/img/swisscom2.svg" alt="Swisscom"></a>
-          <a href="#"><img class="mainlogo" src="public/img/vaudoise.svg" alt="Vaudoise"></a>
+          <a href="#"><img class="mainlogo superbock" src="public/img/superbock.svg" alt="Super Bock"></a>
+          <a href="#"><img class="mainlogo" src="public/img/swisscom.svg?v=3" alt="Swisscom"></a>
+          <a href="#"><img class="mainlogo" src="public/img/vaudoise.svg?v=4" alt="Vaudoise"></a>
         </div>
       </div>
   </div>
@@ -93,12 +93,12 @@ footer {
 .logos {
   display: flex;
   gap: 50px;
-  align-items: baseline; 
+  align-items: center; 
 }
 .condition {
   display: flex;
   justify-content: flex-start;
-
+  gap: 1rem;
   
 }
 
@@ -133,15 +133,17 @@ footer {
 
 .mainlogo {
   height: 100%; 
+  max-height: 50px;
+  width: 100%;
 }
 
-.global-logo,
-.mainlogo {
+.superbock {
+  max-height: 84px;
+  height: 84px;
+}
+
+.global-logo {
   height: 100%;
-  max-height: 100px; 
-  object-fit: contain;
- 
-  display: center;
 }
 
 @media (max-width: 960px) {

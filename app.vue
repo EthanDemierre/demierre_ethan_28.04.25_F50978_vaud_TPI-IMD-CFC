@@ -26,8 +26,9 @@ useSeoMeta({
       </nav>
       <Savethedate></Savethedate>
       <date></date>
-      <countdown></countdown>
     </section>
+    <countdown></countdown>
+
   </header>
   <billeterie></billeterie>
   <newsletter></newsletter>

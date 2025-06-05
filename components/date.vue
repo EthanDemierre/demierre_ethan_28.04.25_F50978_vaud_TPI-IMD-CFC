@@ -53,7 +53,7 @@
   } 
 
 .button {
-    margin: 0px;
+    margin: 0px 0 2rem;
     
     
 }

@@ -52,13 +52,11 @@ onMounted(() => {
     div {
         display: inline-flex;
         width: 100%;
-        padding: 1.25rem 1rem;
         align-items: center;
         height: 15%;
         gap: 3.9375rem;
         background-color: white;
-        position: absolute;
-        bottom: 0;
+      margin-top: auto;
        
         
     }

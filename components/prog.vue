@@ -85,14 +85,13 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
            
         }
 
-
+        .container {
+            flex-direction: column-reverse;
+        } 
 
         section {
             flex-direction: column-reverse;
         }
-
-        
-
     }
 
 </style>

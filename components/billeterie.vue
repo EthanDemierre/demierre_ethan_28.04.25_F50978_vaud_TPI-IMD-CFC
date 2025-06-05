@@ -1,5 +1,4 @@
 
-import type AddcalendarBtn from './addcalendar-btn.vue';
 <template>
 <section id="programme" >
     <div class="container"> 
@@ -79,6 +78,11 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
             margin: 2rem;
            
         }
+
+
+        .container {
+            flex-direction: column;
+        } 
 
 
 
