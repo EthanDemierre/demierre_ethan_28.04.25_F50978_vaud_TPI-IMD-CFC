@@ -8,16 +8,16 @@
        
         <h3>GLOBAL PARTENERS</h3>
         <div class="logos">
-          <a href="#"><img class="global-logo" src="public/img/julius.svg" alt="Julius Bär"></a>
-          <a href="#"><img class="global-logo" src="public/img/ap.svg" alt="Audemars Piguet"></a>
+          <a href="#"><img class="global-logo" src="/img/julius.svg" alt="Julius Bär"></a>
+          <a href="#"><img class="global-logo" src="/img/ap.svg" alt="Audemars Piguet"></a>
         </div>
       </div>
       <div class="main">
         <h3>MAIN PARTNERS</h3>
         <div class="logos">
-          <a href="#"><img class="mainlogo superbock" src="public/img/superbock.svg" alt="Super Bock"></a>
-          <a href="#"><img class="mainlogo" src="public/img/swisscom.svg?v=3" alt="Swisscom"></a>
-          <a href="#"><img class="mainlogo" src="public/img/vaudoise.svg?v=4" alt="Vaudoise"></a>
+          <a href="#"><img class="mainlogo superbock" src="/img/superbock.svg" alt="Super Bock"></a>
+          <a href="#"><img class="mainlogo" src="/img/swisscom.svg?v=3" alt="Swisscom"></a>
+          <a href="#"><img class="mainlogo" src="/img/vaudoise.svg?v=4" alt="Vaudoise"></a>
         </div>
       </div>
   </div>
@@ -29,10 +29,10 @@
 
     <div class="suivre">
     <div class="rs">
-      <a href="#"><img src="public/img/instagram.svg" alt="Instagram"></a>
-      <a href="#"><img src="public/img/facebook.svg" alt="Facebook"></a>
-      <a href="#"><img src="public/img/youtube.svg" alt="YouTube"></a>
-      <a href="#"><img src="public/img/tiktok.svg" alt="TikTok"></a>
+      <a href="#"><img src="/img/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="/img/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="/img/youtube.svg" alt="YouTube"></a>
+      <a href="#"><img src="/img/tiktok.svg" alt="TikTok"></a>
       <p>SUIVRE LE FESTIVAL</p>
     </div>
     <div class="signature">
@@ -54,7 +54,7 @@ footer {
   color: white;
   width: 100%;
   padding: 5rem 0;
-  background-image: url(public/img/noise.jpg);
+  background-image: url(/img/noise.jpg);
   background-blend-mode: screen;
  
 }
