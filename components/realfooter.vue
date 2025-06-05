@@ -144,6 +144,7 @@ footer {
 
 .global-logo {
   height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 960px) {
