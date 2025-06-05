@@ -4,8 +4,7 @@ import type AddcalendarBtn from './addcalendar-btn.vue';
  <section id="newsletter">
     <div class="news container">
         <h1>Notre Newsletter</h1>
-        <h4>Inscris-toi maintenant pour être le premier informé dès que
-            les billets seront disponibles.
+        <h4>Inscris-toi dès maintenant pour recevoir toutes nos informations en exclusivité !
         </h4>
         <a href="#" @click.prevent="showModal = true">S'abonner</a>
         <div v-if="showModal" class="modal-overlay" @click.self="closeModal">

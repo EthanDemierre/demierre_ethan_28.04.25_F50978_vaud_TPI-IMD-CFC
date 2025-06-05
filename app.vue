@@ -22,7 +22,7 @@ useSeoMeta({
       <nav class="container">
         <img class="logo-mjf" src="public/img/logo-mjf.png" alt="LOGO MONTREUX JAZZ">
         <h5><a href="#programme">programme</a></h5>
-        <h5><a href="#billeterie">billeterie</a></h5>
+        <h5><a href="#billeterie">billetterie</a></h5>
         <h5><a href="#newsletter">newsletter</a></h5>
         <h5><a href="#affiche">affiche</a></h5>
       </nav>
