@@ -4,8 +4,12 @@
   <div class="text-affiche">
     <h2>Nouvelle vague numérique</h2>
     <br>
-   <p>Montreux Jazz Festival propose pour cette 56ème édition. Une recherche graphique plus digitalisée. Cette édition vise un public plus jeune. Un renouveau du festival a lieu. Il se digitalise plus et laisse plus de place à la jeunesse afin de se retrouver à Montreux. La vague est une énergie puissante qui balaye tout ce qu'elle croise… Cette "nouvelle vague digitale" incarne une génération hyperconnectée, créative et en quête de sens. Elle fusionne les arts visuels numériques, la musique et l’innovation technologique pour créer une expérience sensorielle complète. En intégrant ces codes, le festival ne fait pas que rajeunir son image : il devient un véritable carrefour d'expressions, où la culture se vit autant sur scène qu'à travers les écrans, les installations immersives ou les réseaux sociaux.</p>
-  
+    <p>Le Montreux Jazz Festival propose, pour cette 56ᵉ édition, une recherche graphique plus digitalisée. Cette édition vise un public plus jeune. Un renouveau du festival est en cours. Il se digitalise davantage et laisse plus de place à la jeunesse afin qu’elle puisse se retrouver à Montreux. La vague symbolise une énergie puissante et balayante. Cette nouvelle vague numérique incarne donc une génération forte, créative, remplie de valeurs et connectée.
+
+    L’affiche fusionne l’élément naturel de la vague avec une approche digitale. Elle combine l’art visuel, la musique et les nouvelles technologies artistiques pour créer une expérience visuelle en adéquation avec cette jeunesse. En intégrant ces codes, le festival ne fait pas que rajeunir son image : il évolue vers une nouvelle forme mêlant jeunesse, numérique et diversité.
+
+    </p>
+
     <hr>
   </div>
   <div class="affiche">
