@@ -1,21 +1,21 @@
 @font-face {
-    font-family:Apax-Regular ;
-    src: url(/font/Apax Regular.woff2)format(woff2);
+    font-family: "Apax-Regular";
+    src: url("/font/Apax Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family:Apax-Bold ;
-    src: url(/font/Apax-Bold.woff2)format(woff2);
+    font-family: "Apax-Bold" ;
+    src: url("/font/Apax-Bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family:Apax-Light ;
-    src: url(/font/Apax-Light.woff2) format(woff2);
+    font-family: "Apax-Light" ;
+    src: url("/font/Apax-Light.woff2") format("woff2");
 }
 
 @font-face {
-    font-family:Apax-Lightitalic ;
-    src: url(/font/Apax-Lightitalic.woff2)format(woff2);
+    font-family:"Apax-Lightitalic" ;
+    src: url("/font/Apax-Lightitalic.woff2") format("woff2");
 }
 
 /* @font-face {
@@ -24,8 +24,8 @@
 } */
 
 @font-face {
-    font-family:Apax-Thin ;
-    src: url(/font/Apax-thin.woff2) format(woff2);
+    font-family: "Apax-Thin";
+    src: url("/font/Apax-thin.woff2") format("woff2");
 }
 
 h1 {
